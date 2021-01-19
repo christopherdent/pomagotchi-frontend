@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import ReactDom from 'react-dom'
@@ -9,10 +8,10 @@ class App extends React.Component {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src='/logo512.png' className="App-logo" alt="logo" />
         <h1> Welcome to Pomagotchi </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Insert Pom Here
         </p>
         <a
           className="App-link"
@@ -20,7 +19,7 @@ class App extends React.Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Contact Us
         </a>
       </header>
     </div>
